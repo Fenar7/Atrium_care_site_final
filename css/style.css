@@ -1245,6 +1245,22 @@ footer .main .col4 .sign-up-btn .sign-box form button:hover {
   align-items: center;
   justify-content: center;
 }
+.contact-us .circle-1 {
+  position: absolute;
+  left: 0px;
+  background-size: cover;
+}
+@media only screen and (max-width: 700px) {
+  .contact-us .circle-1 {
+    height: 100%;
+  }
+}
+.contact-us .circle-2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-size: cover;
+}
 @media only screen and (max-width: 700px) {
   .contact-us {
     height: 55em;

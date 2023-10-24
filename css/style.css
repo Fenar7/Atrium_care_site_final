@@ -535,7 +535,7 @@ footer .main .col2 ul a:hover {
 footer .main .col4 .sign-up-btn {
   flex: 1;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   footer .main .col4 .sign-up-btn {
     display: flex;
     flex-direction: column;

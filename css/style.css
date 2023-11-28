@@ -329,7 +329,6 @@ header hr {
   background: #DEDEDE;
   border: 0px;
   height: 0.0625rem;
-  margin: 0;
   left: 0;
 }
 header .hamburger svg {
@@ -764,10 +763,10 @@ footer .main .col4 .sign-up-btn .sign-box form button:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 3.2rem;
+  flex-wrap: wrap;
 }
 @media only screen and (max-width: 1100px) {
   .categories-cards {
-    flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 2em;
   }
@@ -791,7 +790,7 @@ footer .main .col4 .sign-up-btn .sign-box form button:hover {
 @media only screen and (max-width: 1100px) {
   .categories-cards .card {
     width: 15rem;
-    height: 20rem;
+    height: 17rem;
   }
 }
 @media only screen and (max-width: 700px) {

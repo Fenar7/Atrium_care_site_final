@@ -1,0 +1,55 @@
+@media (min-width: 800px) {
+  .bottom-nav {
+    display: none !important;
+  }
+}
+.bottom-nav {
+  position: fixed;
+  width: 100%;
+  height: 6rem;
+  background-color: white;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0em;
+}
+.bottom-nav .icons-container {
+  width: 100%;
+  padding: 1em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bottom-nav .icons-container .icon {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-nav .icons-container .icon svg {
+  width: 30px;
+  height: 30px;
+}
+.bottom-nav .icons-container .icon p {
+  font-size: 0.6rem;
+}
+.bottom-nav .icons-container .icon.active svg path {
+  fill: #4D73FF;
+}
+.bottom-nav .icons-container .icon.active p {
+  color: #4D73FF;
+}
+.bottom-nav .icons-container .cart {
+  background-color: #4D73FF;
+  padding: 1em 2.5em !important;
+  border-radius: 100%;
+}
+.bottom-nav .icons-container .cart p {
+  color: white;
+  text-align: center;
+}
+.bottom-nav .icons-container .cart svg path {
+  fill: white;
+}/*# sourceMappingURL=bottomnav.css.map */
